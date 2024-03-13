@@ -8,6 +8,8 @@
 
 > In this scenario, this student stated that their input for their testReversed failed when inputting their values/expected values and then stated that their input wasn't being entered due to the symptoms they received. They provided their `ArrayTests.java` and the symptoms of running their test script.
 
+Student provided:
+
 ArrayTests.java
 ```
 ...
@@ -46,7 +48,9 @@ Caused by: java.lang.AssertionError: expected:<3> but was:<0>
 FAILURES!!!
 Tests run: 2,  Failures: 1
 ```
+
 ---
+
 2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
 
 ![Image](123.png)
@@ -64,7 +68,9 @@ static int[] reversed(int[] arr) {
     return arr;
   }
 ```
+
 ---
+
 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 
 ![image](331.png)
@@ -154,7 +160,9 @@ bash test.sh <- to run: javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.
 ```
 * A description of what to edit to fix the bug
 > Bug was a logical error in their `ArrayExamples.java`, they were assigning values of zeroes from their `newArray` array to their `arr` array, leading to zeroes being implemented no matter what input values the student was placing in.
+
 ---
+
 ## Part 2 - Reflections
 
 Coming into this CSE 15L course, I didn't have much knowledge outside of just learning programming languages. This course was an eye-opening experience from beginning to end, from starting and running URL servers to learning about VIM and debugging tools. The more interesting part of the course was learning about the usage of autograders and file exploration commands. During the autograding lab, when we had to write a script to grade certain github links, one of the TAs taught us to use grep to search for terms of 'OK' within the grading files and output "100%" for their grade if it contains it. Overall, it was a little bit difficult grasping the concepts early on, but the labs did help me further understand the materials as concepts from different weeks intermingle with one another. Thank you for your time this quarter! 
