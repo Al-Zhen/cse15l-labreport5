@@ -80,6 +80,7 @@ static int[] reversed(int[] arr) {
 ![image](331.png)
 
 > The student then fixed their code, properly assigning the arrays with the reversed order of their input. Then they showed that their test passed, denoting that the arrays they entered went through the reversed method in their `ArrayExamples.java` and was equal to their expected reversed input.
+
 ---
 
 4. At the end, all the information needed about the setup:
