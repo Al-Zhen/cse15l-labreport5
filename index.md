@@ -51,7 +51,7 @@ Tests run: 2,  Failures: 1
 
 ![Image](123.png)
 
-> In this scenario,
+> In this scenario, we would ask for the code in order to fully understand the issue. It looks like the student had a logical error, where they assigned the values of `newArray` to `arr`, causing it to be assigned zeroes as the values. Recommended to fix any logical errors when assigning values and to return the correct array.
 
 
 Code provided:
@@ -67,10 +67,14 @@ static int[] reversed(int[] arr) {
 ---
 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 
+![image](331.png)
 
+> The student then fixed their code, properly assigning the arrays with the reversed order of their input. Then they showed that their test passed, denoting that the arrays they entered went through the reversed method in their `ArrayExamples.java` and was equal to their expected reversed input.
 
 4. At the end, all the information needed about the setup:
 * The file & directory structure needed
 * The contents of each file before fixing the bug
 * The full command line (or lines) you ran to trigger the bug
 * A description of what to edit to fix the bug
+
+Part 2 - 
