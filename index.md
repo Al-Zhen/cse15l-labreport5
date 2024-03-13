@@ -48,3 +48,19 @@ Tests run: 2,  Failures: 1
 ```
 ---
 2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
+
+![Image](123.png)
+
+> In this scenario,
+
+
+Code provided:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
