@@ -2,7 +2,7 @@
 
 ## Part 1 - Debugging Scenario
 
-1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is.
+* The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is.
 
 ![Image](332.PNG)
 
@@ -54,7 +54,7 @@ Tests run: 2,  Failures: 1
 
 ---
 
-2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
+* A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
 
 ![Image](123.png)
 
@@ -75,7 +75,7 @@ static int[] reversed(int[] arr) {
 
 ---
 
-3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
+* Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 
 ![image](331.png)
 
@@ -83,7 +83,7 @@ static int[] reversed(int[] arr) {
 
 ---
 
-4. At the end, all the information needed about the setup:
+## At the end, all the information needed about the setup:
 * The file & directory structure needed
 
 ```
