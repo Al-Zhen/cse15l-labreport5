@@ -11,6 +11,7 @@
 Student provided:
 
 ArrayTests.java
+
 ```
 ...
   @Test
@@ -20,7 +21,9 @@ ArrayTests.java
   }
 }
 ```
+
 Symptom
+
 ```
 $ bash test.sh
 JUnit version 4.13.2
@@ -59,6 +62,7 @@ Tests run: 2,  Failures: 1
 
 
 Code provided:
+
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -80,6 +84,7 @@ static int[] reversed(int[] arr) {
 
 4. At the end, all the information needed about the setup:
 * The file & directory structure needed
+
 ```
 /c/User/Student/lab3
 │
@@ -87,8 +92,11 @@ static int[] reversed(int[] arr) {
 ├── ArrayTests.java
 └── test.sh
 ```
+
 * The contents of each file before fixing the bug
+
 ArrayExamples.java
+
 ```
 public class ArrayExamples {
 
@@ -128,7 +136,9 @@ public class ArrayExamples {
 
 }
 ```
+
 ArrayTests.java
+
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -149,16 +159,22 @@ public class ArrayTests {
   }
 }
 ```
+
 test.sh
+
 ```
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests
 ```
+
 * The full command line (or lines) you ran to trigger the bug
+
 ```
 bash test.sh <- to run: javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java and java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests
 ```
+
 * A description of what to edit to fix the bug
+
 > Bug was a logical error in their `ArrayExamples.java`, they were assigning values of zeroes from their `newArray` array to their `arr` array, leading to zeroes being implemented no matter what input values the student was placing in.
 
 ---
